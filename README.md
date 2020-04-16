@@ -1,4 +1,7 @@
 # TP IONIC 02
+
+## Jérémy STANKO M1 Web 
+
 ###### From _ionic blank starter_
 ![Angular CI](https://github.com/OiseauPython/tp02/workflows/Angular%20CI/badge.svg)
 
