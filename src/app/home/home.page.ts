@@ -59,6 +59,7 @@ export class HomePage {
               alert('Can not retrieve Location')
             }).catch((error) => {
             //alert('Error getting location'+JSON.stringify(error));
+            //console.log('Error getting location', error);
             alert('Error getting location - '+JSON.stringify(error))
             });
   }
