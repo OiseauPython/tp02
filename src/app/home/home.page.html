@@ -6,7 +6,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content padding>
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large" >Blank 2</ion-title>
@@ -21,8 +21,7 @@
       </ion-card-header>
 
       <ion-card-content>
-        Keep close to Nature's heart... and break clear away, once in awhile,
-        and climb a mountain or spend a week in the woods. Wash your spirit clean.
+        Keep close to Nature's heart...
       </ion-card-content>
     </ion-card>
     <ion-card>
@@ -30,21 +29,24 @@
         <ion-icon name="wifi" slot="start"></ion-icon>
         <ion-label>Fire Alert</ion-label>
       </ion-item>
-
-      <ion-item>
-        <ion-icon name="wine" slot="start"></ion-icon>
-        <ion-label>Card Link Item 2</ion-label>
-      </ion-item>
-
-      <ion-item>
-        <ion-icon name="warning" slot="start"></ion-icon>
-        <ion-label>Card Button Item 1 activated</ion-label>
-      </ion-item>
-
-      <ion-item>
-        <ion-icon name="walk" slot="start"></ion-icon>
-        <ion-label>Card Button Item 2</ion-label>
-      </ion-item>
     </ion-card>
+    <ion-button (click)="getLoc()" expand="block">Get Location</ion-button>
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Location Info</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>
+          Latitue
+        </ion-label>
+        <ion-badge slot="end">{{lat}}</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          longitude
+        </ion-label>
+        <ion-badge slot="end">{{lng}}</ion-badge>
+      </ion-item>
+      </ion-list>
   </div>
 </ion-content>
