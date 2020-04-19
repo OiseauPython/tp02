@@ -7,7 +7,7 @@
 
 
 ### Note
-La caméra fonctionne pas sur emulateur iOS mais directement sur le téléphone. Cependant tout fonctionnen sur emulteur
+La caméra fonctionne pas sur emulateur iOS mais directement sur le téléphone. Cependant tout fonctionnen sur emulateur
 
 
 - CI :white_check_mark:
