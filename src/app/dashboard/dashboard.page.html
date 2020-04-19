@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+        <ion-card-title>Card Title</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        Keep close to Nature's heart...
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-item (click)="fireAlert()" class="ion-activated">
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>Fire Alert</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-button (click)="single_notification()">
+      Single Notification
+    </ion-button>
+
+    <ion-button (click)="multi_notification()">
+      Multi Notifcations
+    </ion-button>
+
+    <ion-button (click)="delayed_notification()">
+      Delayed Notification
+    </ion-button>
+  </div>
+</ion-content>
+
