@@ -7,7 +7,9 @@
 
 
 ### Note
-La caméra fonctionne pas sur emulateur iOS mais directement sur le téléphone. Cependant tout fonctionnen sur emulateur
+La caméra ne fonctionne pas sur emulateur iOS mais directement sur le téléphone. Cependant tout fonctionne sur emulateur.
+
+Je suis reparti de la dernière version que j'avais push, avant de changer d'ordinateur, j'ai eu des soucis avec les tests, j'ai dû en enlever quelques un mais l'application fonctionne.
 
 
 - CI :white_check_mark:
