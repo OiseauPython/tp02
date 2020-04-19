@@ -5,6 +5,11 @@
 ###### From _ionic blank starter_
 ![Angular CI](https://github.com/OiseauPython/tp02/workflows/Angular%20CI/badge.svg)
 
+
+### Note
+La caméra fonctionne pas sur emulateur iOS mais directement sur le téléphone. Cependant tout fonctionnen sur emulteur
+
+
 - CI :white_check_mark:
     - Build :white_check_mark:
     - Units Tests :white_check_mark:
